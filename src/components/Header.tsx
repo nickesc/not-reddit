@@ -35,14 +35,27 @@ function Header({userId, setUserId}: {userId: string | null; setUserId: (userId:
             </div>
             <div className="header-bottom">
                 <p>
-                    {userId ? (
-                        <strong>Welcome, {userId}!</strong>
-                    ) : (
-                        <span className="header-login-prompt">
-                            Set your username to login&nbsp;
-                            <Icons.LoginIcon />
-                        </span>
-                    )}
+                    <i>
+                        {userId ? (
+                            <>
+                                Welcome, <strong>{userId}!</strong>
+                            </>
+                        ) : (
+                            <span className="header-login-prompt">
+                                Set your username to login&nbsp;
+                                <Icons.LoginIcon />
+                            </span>
+                        )}
+                    </i>
+                </p>
+                <p className="card caution-card">
+                    <strong>Note:</strong> This is an ephemeral session. Your username and posts will be cleared when
+                    you reload the page.
+                </p>
+                <p>After setting your username, create a new post to get started.</p>
+                <p>
+                    Try liking, replying, and editing posts. Then change your username, and interact with the app as a
+                    different user.
                 </p>
             </div>
         </header>
