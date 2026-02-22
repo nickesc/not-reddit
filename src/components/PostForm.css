@@ -1,0 +1,16 @@
+.post-form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: stretch;
+    width: 100%;
+}
+
+.post-form input {
+    flex: 10;
+}
+
+.post-form button {
+    flex: 1;
+}
