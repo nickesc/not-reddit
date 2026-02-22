@@ -61,9 +61,40 @@
     background-color: var(--color-secondary-background-selected);
 }
 
+.card {
+    padding: var(--padding);
+    transition: all 0.25s;
+    border-radius: var(--corners);
+}
+
 .content-card {
     background-color: var(--color-content-background);
-    border: 1px solid var(--color-border);
-    border-radius: 10px;
-    padding: 1em;
+}
+
+.content-card:hover,
+.identity-self-card:hover {
+    background-color: var(--color-content-background-hover);
+}
+
+.caution-card {
+    color: var(--color-caution);
+    background-color: var(--color-caution-background);
+}
+
+.danger-card {
+    color: var(--color-danger);
+    background-color: var(--color-danger-background);
+}
+
+.success-card {
+    color: var(--color-success);
+    background-color: var(--color-success-background);
+}
+
+.identity-self-card {
+    color: var(--color-identity-self);
+}
+
+.identity-self-card .post-author {
+    color: var(--color-identity-self-author);
 }
