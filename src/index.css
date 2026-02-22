@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Battambang";
+    src:
+        local("Battambang"),
+        url("./assets/fonts/Battambang-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
 }
