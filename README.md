@@ -25,3 +25,12 @@ npm run dev
 ```
 
 Then open the local URL shown in your terminal.
+
+## Disclaimer
+
+This project is not affiliated with Reddit.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
+for details.
