@@ -1,3 +1,5 @@
+import "./Footer.css";
+
 function Footer() {
     function openInNewTab(event: React.MouseEvent<HTMLAnchorElement>) {
         event.preventDefault();
@@ -11,7 +13,7 @@ function Footer() {
                     <a href="https://not-reddit.com" onClick={openInNewTab}>
                         OC do not steal!
                     </a>{" "}
-                    © Not-Reddit
+                    Not affiliated with Reddit.
                 </small>
             </p>
         </footer>
