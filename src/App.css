@@ -91,10 +91,11 @@
     background-color: var(--color-success-background);
 }
 
-.identity-self-card {
+.identity-self-card .post-content {
     color: var(--color-identity-self);
 }
 
-.identity-self-card .post-author {
+.identity-self-card .post-author,
+.identity-self-card .post-timestamp {
     color: var(--color-identity-self-author);
 }
