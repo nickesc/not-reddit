@@ -56,15 +56,24 @@ function PostForm({
                     placeholder={`${replyLabel.charAt(0).toUpperCase() + replyLabel.slice(1)} text`}
                     value={contentDraft}
                     onChange={handleContentChange}
+                    autoComplete="off"
                 />
-                <button type="submit" aria-label={`Submit ${replyLabel}`} className="primary-button">
+                <button
+                    type="reset"
+                    aria-label={`Reset ${replyLabel}`}
+                    className="secondary-button delete-button"
+                    disabled={!contentDraft}
+                >
+                    <Icons.CancelIcon />
+                </button>
+                <button
+                    type="submit"
+                    aria-label={`Submit ${replyLabel}`}
+                    className="primary-button submit-button"
+                    disabled={!contentDraft || !userId}
+                >
                     <Icons.SubmitIcon />
                 </button>
-                {contentDraft && (
-                    <button type="reset" aria-label={`Reset ${replyLabel}`} className="tertiary-button">
-                        <Icons.CancelIcon />
-                    </button>
-                )}
             </form>
             {errorMessage && <p className="error">{errorMessage}</p>}
         </>
