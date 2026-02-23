@@ -1,6 +1,11 @@
 # not-reddit
 
-A small local Reddit-style message board built with React, TypeScript, and Vite.
+A small, local message board built with React, TypeScript, and Vite. It's not
+Reddit, but it is Not-Reddit.
+
+Available at:
+
+> [not-reddit.batcomputer.xyz](https://not-reddit.batcomputer.xyz/)
 
 ## Features
 
