@@ -8,9 +8,13 @@
 }
 
 .post-form input {
-    flex: 10;
+    flex: 17;
 }
 
-.post-form button {
+.post-form .delete-button {
     flex: 1;
+}
+
+.post-form .submit-button {
+    flex: 3;
 }
