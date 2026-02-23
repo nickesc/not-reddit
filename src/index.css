@@ -130,7 +130,7 @@ button {
     justify-content: center;
     cursor: pointer;
     background-color: #1a1a1a;
-    padding: 0.25em 0.5em;
+    padding: 0.25rem 0.5rem;
 }
 
 input {
@@ -139,7 +139,7 @@ input {
     border-radius: 1000px;
     background-color: var(--color-background);
     font-size: 0.9em;
-    padding: 0.4em 0.7em;
+    padding: 0.4rem 0.7rem;
     min-width: 0;
 }
 
