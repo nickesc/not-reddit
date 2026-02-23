@@ -10,15 +10,10 @@ function Header({userId, setUserId}: {userId: string | null; setUserId: (userId:
         setUserId(e.target.value);
     }
 
-    function openInNewTab(event: React.MouseEvent<HTMLAnchorElement>) {
-        event.preventDefault();
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank")?.focus();
-    }
-
     return (
         <header>
             <div className="header-top">
-                <a className="header-logo-title" href="https://not-reddit.com" onClick={openInNewTab}>
+                <a className="header-logo-title" href="/">
                     <Icons.Logo />
                     <span className="header-title">not-reddit</span>
                 </a>

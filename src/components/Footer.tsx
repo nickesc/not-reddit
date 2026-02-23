@@ -10,7 +10,7 @@ function Footer() {
         <footer>
             <p>
                 <small>
-                    <a href="https://not-reddit.com" onClick={openInNewTab}>
+                    <a href="/oc" onClick={openInNewTab}>
                         OC do not steal!
                     </a>{" "}
                     Not affiliated with Reddit.
