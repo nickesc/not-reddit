@@ -84,11 +84,11 @@ body {
 
     --color-secondary: #21272a;
     --color-secondary-hover: #000000;
-    --color-secondary-disabled: var(--color-content-weak);
+    --color-secondary-disabled: #96a7b0;
     --color-secondary-background: #bbc0c480;
     --color-secondary-background-hover: #bbc0c4b3;
     --color-secondary-background-selected: #bbc0c4e6;
-    --color-secondary-background-disabled: #bbc0c443;
+    --color-secondary-background-disabled: #bbc0c430;
 
     --color-link: var(--color-primary-background);
     --color-link-hover: var(--color-primary-background-hover);
