@@ -51,6 +51,7 @@ body {
     --color-content-disabled: #d6d6d6;
     --color-content-strong: #181c1f;
     --color-content-weak: #5c6c74;
+    --color-content-placeholder: #a1a1a1;
 
     --color-primary: var(--color-background);
     --color-primary-hover: var(--color-background-hover);
@@ -146,6 +147,10 @@ input {
 input:focus {
     border: 1px solid var(--color-brand-orangered);
     outline: 2px solid var(--color-global-focus);
+}
+
+input::placeholder {
+    color: var(--color-content-placeholder);
 }
 
 button:focus,
