@@ -27,11 +27,15 @@ function Header({userId, setUserId}: {userId: string | null; setUserId: (userId:
                     <input
                         id="userIdInput"
                         type="text"
-                        placeholder="Set User ID"
+                        placeholder="Log in as..."
                         value={userIdDraft}
                         onChange={handleDraftChange}
                     />
                 </div>
+            </div>
+            <div className="card caution-card header-note">
+                <strong>Note:</strong> This is an ephemeral session. Your username and posts will be cleared when you
+                reload the page.
             </div>
             <div className="header-bottom">
                 <p>
@@ -47,10 +51,6 @@ function Header({userId, setUserId}: {userId: string | null; setUserId: (userId:
                             </span>
                         )}
                     </i>
-                </p>
-                <p className="card caution-card">
-                    <strong>Note:</strong> This is an ephemeral session. Your username and posts will be cleared when
-                    you reload the page.
                 </p>
                 <p>After setting your username, create a new post to get started.</p>
                 <p>

@@ -13,6 +13,13 @@ header {
     gap: 0.5rem;
 }
 
+.header-note {
+    margin: 0;
+    font-size: 0.8em;
+    text-wrap: pretty;
+    line-height: 1.2;
+}
+
 .header-bottom {
     display: flex;
     flex-direction: column;
@@ -74,6 +81,10 @@ header {
     font-weight: 600;
     color: var(--color-content-weak);
     margin-bottom: 0.1rem;
+}
+
+.header-login input {
+    font-size: 0.8em;
 }
 
 @media (max-width: 375px) {
