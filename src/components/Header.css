@@ -85,6 +85,7 @@ header {
 
 .header-login input {
     font-size: 0.8em;
+    width: 100%;
 }
 
 @media (max-width: 375px) {

@@ -179,3 +179,9 @@ button:focus,
 button:focus-visible {
     outline: 2px solid var(--color-global-focus);
 }
+
+@media (pointer: coarse) {
+    input {
+        font-size: 1em !important;
+    }
+}
