@@ -2,9 +2,27 @@
     font-family: "Battambang";
     src:
         local("Battambang"),
-        url("./assets/fonts/Battambang-Bold.ttf") format("truetype");
+        url("./assets/fonts/battambang/Battambang-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+        local("Inter"),
+        url("./assets/fonts/inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+        local("Inter"),
+        url("./assets/fonts/inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: italic;
 }
 
 * {
@@ -15,6 +33,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 :root {
