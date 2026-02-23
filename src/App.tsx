@@ -81,6 +81,11 @@ function App() {
     }
 
     async function likePost(id: string): Promise<boolean> {
+        if (!userId) {
+            console.error("User ID is required to like a post");
+            return false;
+        }
+
         const allowed = validatePostPermission(id, false);
         if (!allowed) {
             console.error("User does not have permission to like post");
