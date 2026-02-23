@@ -63,7 +63,10 @@ function PostList({
             <ul className="post-list-body">
                 {childPosts.map((p) => {
                     return (
-                        <li className={`card content-card ${p.author === userId && "identity-self-card"}`} key={p.id}>
+                        <li
+                            className={`card content-card ${p.author === userId ? "identity-self-card" : ""}`}
+                            key={p.id}
+                        >
                             <PostBubble
                                 post={p}
                                 userId={userId}
