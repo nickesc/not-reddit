@@ -71,6 +71,9 @@
 
 .content-card {
     background-color: var(--color-content-background);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .content-card:hover {

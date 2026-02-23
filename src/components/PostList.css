@@ -18,3 +18,18 @@
     margin-block-end: 0;
     padding-inline-start: 0;
 }
+
+.post-list-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: var(--color-content-light);
+    text-wrap: pretty;
+    line-height: 1.2;
+}
+
+.post-list-header button {
+    font-size: 1.4em;
+}
