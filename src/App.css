@@ -19,11 +19,7 @@
 .primary-button:disabled {
     color: var(--color-primary-disabled);
     background-color: var(--color-primary-background-disabled);
-    cursor: not-allowed;
-}
-
-.primary-button:focus {
-    outline: 2px solid var(--color-global-focus);
+    cursor: default;
 }
 
 .secondary-button {
@@ -42,6 +38,12 @@
 .secondary-button:active {
     color: var(--color-secondary-hover);
     background-color: var(--color-secondary-background-selected);
+}
+
+.secondary-button:disabled {
+    color: var(--color-secondary-disabled);
+    background-color: var(--color-secondary-background-disabled);
+    cursor: default;
 }
 
 .tertiary-button {
