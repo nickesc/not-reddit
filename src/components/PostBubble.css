@@ -83,3 +83,12 @@
     padding: 0.1rem 0.3rem;
     border-radius: 0.3rem;
 }
+
+.identity-self-card .post-content {
+    color: var(--color-identity-self);
+}
+
+.identity-self-card .post-author,
+.identity-self-card .post-timestamp {
+    color: var(--color-identity-self-author);
+}

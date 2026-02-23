@@ -71,8 +71,7 @@
     background-color: var(--color-content-background);
 }
 
-.content-card:hover,
-.identity-self-card:hover {
+.content-card:hover {
     background-color: var(--color-content-background-hover);
 }
 
@@ -89,13 +88,4 @@
 .success-card {
     color: var(--color-success);
     background-color: var(--color-success-background);
-}
-
-.identity-self-card .post-content {
-    color: var(--color-identity-self);
-}
-
-.identity-self-card .post-author,
-.identity-self-card .post-timestamp {
-    color: var(--color-identity-self-author);
 }
