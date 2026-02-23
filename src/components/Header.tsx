@@ -41,7 +41,7 @@ function Header({userId, setUserId}: {userId: string | null; setUserId: (userId:
                             </>
                         ) : (
                             <span className="header-login-prompt">
-                                Set your username to login&nbsp;
+                                Set your username to log&nbsp;in&nbsp;
                                 <Icons.LoginIcon />
                             </span>
                         )}
