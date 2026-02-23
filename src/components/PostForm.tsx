@@ -70,7 +70,7 @@ function PostForm({
                     type="submit"
                     aria-label={`Submit ${replyLabel}`}
                     className="primary-button submit-button"
-                    disabled={!contentDraft || !userId}
+                    disabled={!contentDraft.trim() || !userId}
                 >
                     <Icons.SubmitIcon />
                 </button>
